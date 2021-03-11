@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "420913316561",
+    "firebase_url": "https://students-attendance-d07d5.firebaseio.com",
+    "project_id": "students-attendance-d07d5",
+    "storage_bucket": "students-attendance-d07d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420913316561:android:8c0c8ac74ea1b970",
+        "android_client_info": {
+          "package_name": "com.example.zubayer.strudentsattendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420913316561-27vbr7tmika7udc5ij8gjggjtmf4am7f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zubayer.strudentsattendance",
+            "certificate_hash": "a9005524579c4fde8db2a2e5b47dba3abe3568a3"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4RrIg8IOk3-Zhy07VVe1hrLP6Mxo-9EQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420913316561-gaih5saupa81acimgmpbaso5mb9n4eib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

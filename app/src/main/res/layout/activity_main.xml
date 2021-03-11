@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.zubayer.strudentsattendance.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon2"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="E-Attendance"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        tools:fontFamily="serif-monospace"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+
+</LinearLayout>

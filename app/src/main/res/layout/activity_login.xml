@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color"
+    android:orientation="vertical"
+    tools:context="com.example.zubayer.strudentsattendance.LoginActivity">
+ <ImageView
+     android:layout_width="80dp"
+     android:layout_height="80dp"
+     android:background="@drawable/icon2"
+     android:layout_gravity="center"
+    android:id="@+id/imageView"
+     android:layout_marginTop="8dp"
+     />
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:gravity="center"
+     android:text="E-Attendance System"
+     android:textColor="@android:color/white"
+     android:layout_marginTop="2dp"
+     />
+
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:gravity="center"
+     android:layout_margin="10dp"
+     android:layout_gravity="center"
+     android:orientation="vertical"
+     android:id="@+id/linearLayout">
+
+  <Spinner
+      android:id="@+id/spinner"
+      android:layout_width="match_parent"
+      android:layout_height="45dp"
+      tools:layout_editor_absoluteX="8dp"
+      android:layout_marginTop="15dp"/>
+
+ <com.rengwuxian.materialedittext.MaterialEditText
+     android:id="@+id/userId"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:hint="UserId"
+
+     android:layout_margin="10dp"
+     app:met_floatingLabelText="Enter UserId"
+     app:met_floatingLabel="highlight"
+     app:met_floatingLabelAnimating="true"
+     app:met_singleLineEllipsis="true"
+     app:met_underlineColor="@android:color/darker_gray"
+     app:met_clearButton="true"
+     app:met_textColor="@android:color/black"
+     app:met_autoValidate="true"
+     />
+  <com.rengwuxian.materialedittext.MaterialEditText
+      android:id="@+id/userPass"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Enter password"
+      android:inputType="textPassword"
+
+      android:layout_margin="10dp"
+      app:met_floatingLabelText="Enter Valid Password"
+      app:met_floatingLabel="highlight"
+      app:met_floatingLabelAnimating="true"
+      app:met_singleLineEllipsis="true"
+      app:met_underlineColor="@android:color/darker_gray"
+      app:met_clearButton="true"
+      app:met_textColor="@android:color/black"
+      app:met_autoValidate="true"
+      />
+
+  <Button
+      android:id="@+id/loginButton"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="45dp"
+      android:background="@android:color/holo_blue_dark"
+      android:onClick="onButtonClick"
+      android:text="Login"
+
+      android:layout_marginLeft="8dp"
+      android:layout_marginRight="8dp"
+      android:textColor="#fff"
+       />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="@android:color/holo_blue_dark"
+      android:textSize="16dp"
+      android:text="Not Registered yet? Register as"/>
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+   <Button
+       android:id="@+id/button_reg_teacher"
+       android:layout_width="wrap_content"
+       android:layout_height="35dp"
+       android:background="@android:color/holo_blue_dark"
+
+
+       android:textColor="@android:color/white"
+       android:text="teacher"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="@android:color/holo_blue_dark"
+       android:text=" OR "/>
+   <Button
+       android:id="@+id/button_reg_student"
+       android:layout_width="wrap_content"
+       android:layout_height="35dp"
+       android:background="@android:color/holo_blue_dark"
+       android:textColor="@android:color/white"
+       android:text="student"/>
+  </LinearLayout>
+
+
+
+ </LinearLayout>
+
+</LinearLayout>

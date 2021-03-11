@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Students Attendance</string>
+    <array name="classes">
+        <item>Select Batch</item>>
+        <item>CSE-7</item>
+        <item>CSE-8</item>
+        <item>CSE-9</item>
+
+    </array>
+    <array name="periods">
+        <item>Select Course</item>>
+        <item>NM</item>
+        <item>DBMS</item>
+        <item>CN</item>
+        <item>SAD</item>
+        <item>TOC</item>
+
+    </array>
+
+</resources>
